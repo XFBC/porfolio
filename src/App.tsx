@@ -1,8 +1,11 @@
+import Home from './pages/home'
 
 function App() {
   return (
     <div className="App">
-      <h2 className="text-orange-400">TEST</h2>
+      <h2 className="text-white">
+        <Home />
+      </h2>
     </div>
   )
 }
