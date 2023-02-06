@@ -10,9 +10,11 @@ import Possibility from '../../components/Possibility'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <Header />
+    <div className=''>
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
       <About />
       <Feautures />
