@@ -1,4 +1,9 @@
-export default function AboutText({ text, title, className }) {
+interface textProps {
+  className: string
+  title: string
+  text: string
+}
+export default function AboutText({ text, title, className }: textProps) {
   return (
     <div className={className}>
       <div>
