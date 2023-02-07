@@ -20,3 +20,26 @@ export const navLinks = [
     title: 'Contato'
   }
 ]
+
+export const stacks = [
+  {
+    id: 1,
+    image: '/assets/stack-1.png'
+  },
+  {
+    id: 2,
+    image: '/assets/stack-2.png'
+  },
+  {
+    id: 3,
+    image: '/assets/stack-3.png'
+  },
+  {
+    id: 4,
+    image: '/assets/stack-4.png'
+  },
+  {
+    id: 5,
+    image: '/assets/stack-5.png'
+  }
+]
