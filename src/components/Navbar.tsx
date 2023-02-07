@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <section className="flex md:justify-between items-center px-[2rem] md:px-[6rem] py-[2rem] ">
+    <section className="flex md:justify-between items-center md:pr-[6rem] py-[2rem] ">
       <div>
         <img src={Logo} alt="logo" className="w-24 mr-[60px]" />
       </div>
@@ -46,16 +46,19 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-8 absolute top-24 right-0 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle`}
+          } p-6 absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle`}
         >
           {' '}
-          {navLinks.map(item => {
-            return (
-              <div className="list-none flex justify-center items-start flex-col w-[160px] text-xl">
-                <a href="">{item.title}</a>
-              </div>
-            )
-          })}
+          <ul className="list-none flex justify-center items-center flex-col  mx-8">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`font-poppins font-normal cursos-pointer text-[16px] text-white mb-2`}
+              >
+                <a>{nav.title}</a>
+              </li>
+            ))}
+          </ul>{' '}
         </div>
       </div>
     </section>

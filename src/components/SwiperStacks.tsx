@@ -1,33 +1,40 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import { Autoplay } from 'swiper'
 
 import { stacks } from '../constants/mock'
 
 export default function App() {
   return (
-    <div className="mt-[70px] ">
+    <div className="mt-[70px] md:mx-16">
       <Swiper
-        loop={true}
+        autoplay={{
+          delay: 1500
+        }}
+        slidesPerView={'auto'}
+        modules={[Autoplay]}
         breakpoints={{
-          640: {
+          350: {
             slidesPerView: 3,
-            spaceBetween: 20
+            spaceBetween: 2
           },
           768: {
             slidesPerView: 4,
             spaceBetween: 40
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 50
+            slidesPerView: 3,
+            spaceBetween: 20
           }
         }}
         className="mySwiper"
       >
         {stacks.map(stack => (
           <SwiperSlide>
-            <img src={stack.image} alt="" />
+            <div className="flex justify-center">
+              <img src={stack.image} alt="" className="w-14" />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

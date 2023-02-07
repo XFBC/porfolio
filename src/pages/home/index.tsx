@@ -10,18 +10,20 @@ import Possibility from '../../components/Possibility'
 
 export default function Home() {
   return (
-    <div className=''>
-      <div className="gradient__bg">
+    <div className="px-[2rem] md:px-[6rem] py-[2rem] gradient__bg">
+      <div className="">
         <Navbar />
         <Header />
       </div>
-      <Brand />
       <About />
+
+      {/*
+     <Brand />
       <Feautures />
       <Possibility />
       <Cta />
       <Blog />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
