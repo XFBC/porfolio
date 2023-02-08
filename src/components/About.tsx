@@ -6,13 +6,12 @@ const About = () => {
   return (
     <section>
       <div className="mt-[126px] md:px-[63px] px-4 md:py-[50px] py-10 about-bg rounded-lg">
-       
         {aboutText.map((item, index) => {
           if (item.id === 1) {
             return (
               <AboutText
                 text={item.text}
-              title={item.title}
+                title={item.title}
                 className="flex flex-col"
               />
             )
@@ -24,9 +23,7 @@ const About = () => {
           </h1>
         </div>
 
-
-
-        <div className="pt-[90px] grid grid-cols-1 md:grid-cols-3 gap-[42px]">
+        <div className="pt-[90px] grid grid-cols-1 md:grid-cols-4 gap-[42px]">
           {aboutText.map((item, index) => {
             if (item.id != 1) {
               return (

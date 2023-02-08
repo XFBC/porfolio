@@ -16,6 +16,7 @@ export default function Home() {
         <Header />
       </div>
       <About />
+      <Cta />
 
       {/*
      <Brand />

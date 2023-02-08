@@ -65,4 +65,9 @@ export const aboutText = [
     title: 'Education',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
   },
+  {
+    id: 5,
+    title: 'Education',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+  },
 ]
