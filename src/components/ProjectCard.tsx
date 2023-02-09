@@ -17,7 +17,7 @@ export default function ProjectCard({
       <div>
         <img src={imgUrl} alt="image" className="w-full h-[100%]" />
       </div>
-      <div className="bg-[#042C54] py-8 px-8 rounded-b-xl">
+      <div className="about-bg py-8 px-8 rounded-b-xl">
         <h2 className="font-bold text-lg capitalize">{title}</h2>
         <p>{description}</p>
 
