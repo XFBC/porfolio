@@ -53,6 +53,7 @@ export default function Projects() {
                   imgUrl={item.image.url}
                   title={item.title}
                   link={item.link.url}
+                  description="lorem ipsum dolor simet"
                 />
               </div>
             )
@@ -66,7 +67,7 @@ export default function Projects() {
                   imgUrl={item.image.url}
                   title={item.title}
                   link={item.link.url}
-                 
+                  description="lorem ipsum dolor simet"
                 />
               )
             }

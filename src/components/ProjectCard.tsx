@@ -4,11 +4,14 @@ interface cardProps {
   imgUrl: string
   title: string
   link: string
+  description: string
 }
-export default function ProjectCard({ imgUrl, title, link }: cardProps) {
-  const filteredProjects = projects.filter(item => item.type === 'react')
-
-  console.log(filteredProjects)
+export default function ProjectCard({
+  imgUrl,
+  title,
+  link,
+  description
+}: cardProps) {
   return (
     <div className="max-w-lg">
       <div>
@@ -16,6 +19,7 @@ export default function ProjectCard({ imgUrl, title, link }: cardProps) {
       </div>
       <div className="bg-[#042C54] py-8 px-8 rounded-b-xl">
         <h2 className="font-bold text-lg capitalize">{title}</h2>
+        <p>{description}</p>
 
         <div className="pt-10">
           <a target="_blank" href={link}>

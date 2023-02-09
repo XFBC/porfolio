@@ -76,18 +76,19 @@ export const projects = [
   {
     id: 1,
     image: {
-      url: '/public/assets/project.png'
+      url: '/assets/project.png'
     },
     title: 'projeto 1',
     link: {
       url: 'https://facebook.com'
     },
-    type: 'react'
+    type: 'react',
+    description: 'lorem ipsum dolor simet test'
   },
   {
     id: 2,
     image: {
-      url: '/public/assets/project.png'
+      url: '/assets/project.png'
     },
     title: 'projeto 2',
     link: {
@@ -97,7 +98,7 @@ export const projects = [
   {
     id: 3,
     image: {
-      url: '/public/assets/project.png'
+      url: '/assets/project.png'
     },
     title: 'projeto 3',
     link: {
@@ -107,7 +108,7 @@ export const projects = [
   {
     id: 4,
     image: {
-      url: '/public/assets/project.png'
+      url: '/assets/project.png'
     },
     title: 'projeto 4',
     link: {
@@ -117,7 +118,7 @@ export const projects = [
   {
     id: 5,
     image: {
-      url: '/public/assets/project.png'
+      url: '/assets/project.png'
     },
     title: 'projeto 5',
     link: {
