@@ -69,5 +69,59 @@ export const aboutText = [
     id: 5,
     title: 'Education',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+  }
+]
+
+export const projects = [
+  {
+    id: 1,
+    image: {
+      url: '/public/assets/project.png'
+    },
+    title: 'projeto 1',
+    link: {
+      url: 'https://facebook.com'
+    },
+    type: 'react'
   },
+  {
+    id: 2,
+    image: {
+      url: '/public/assets/project.png'
+    },
+    title: 'projeto 2',
+    link: {
+      url: 'https://facebook.com'
+    }
+  },
+  {
+    id: 3,
+    image: {
+      url: '/public/assets/project.png'
+    },
+    title: 'projeto 3',
+    link: {
+      url: 'https://facebook.com'
+    }
+  },
+  {
+    id: 4,
+    image: {
+      url: '/public/assets/project.png'
+    },
+    title: 'projeto 4',
+    link: {
+      url: 'https://facebook.com'
+    }
+  },
+  {
+    id: 5,
+    image: {
+      url: '/public/assets/project.png'
+    },
+    title: 'projeto 5',
+    link: {
+      url: 'https://facebook.com'
+    }
+  }
 ]
