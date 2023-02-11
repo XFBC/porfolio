@@ -52,8 +52,8 @@ export const aboutText = [
   },
   {
     id: 2,
-    title: 'Chatbots',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+    title: 'STACKS',
+    text: 'Magni qui laborum sunt totam non perferendis explicabo odit.'
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ export const aboutText = [
   },
   {
     id: 5,
-    title: 'Education',
+    title: 'Workers',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
   }
 ]
@@ -93,7 +93,8 @@ export const projects = [
     title: 'projeto 2',
     link: {
       url: 'https://facebook.com'
-    }
+    },
+    type: 'laravel'
   },
   {
     id: 3,
@@ -103,7 +104,8 @@ export const projects = [
     title: 'projeto 3',
     link: {
       url: 'https://facebook.com'
-    }
+    },
+    type: 'laravel'
   },
   {
     id: 4,
@@ -113,7 +115,8 @@ export const projects = [
     title: 'projeto 4',
     link: {
       url: 'https://facebook.com'
-    }
+    },
+    type: 'laravel'
   },
   {
     id: 5,
@@ -123,6 +126,7 @@ export const projects = [
     title: 'projeto 5',
     link: {
       url: 'https://facebook.com'
-    }
+    },
+    type: 'laravel'
   }
 ]

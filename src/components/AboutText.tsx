@@ -1,3 +1,6 @@
+
+import ProgressBar from './ProgressBar'
+
 interface textProps {
   className: string
   title: string
@@ -13,6 +16,10 @@ export default function AboutText({ text, title, className }: textProps) {
 
       <div className="">
         <p className="text-[#81AFDD]">{text}</p>
+      </div>
+
+      <div>
+    
       </div>
     </div>
   )

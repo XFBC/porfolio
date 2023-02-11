@@ -1,6 +1,7 @@
 import React from 'react'
 import { aboutText } from '../constants/mock'
 import AboutText from './AboutText'
+import ProgressBar from './ProgressBar'
 
 const About = () => {
   return (
@@ -25,13 +26,37 @@ const About = () => {
 
         <div className="pt-[90px] grid grid-cols-1 md:grid-cols-4 gap-[42px]">
           {aboutText.map((item, index) => {
-            if (item.id != 1) {
+            if (item.id === 2) {
               return (
-                <AboutText
-                  text={item.text}
-                  title={item.title}
-                  className="flex flex-col"
-                />
+                <div>
+                  <AboutText
+                    text={item.text}
+                    title={item.title}
+                    className="flex flex-col"
+                  />
+                  <div>
+                    <p>HTML</p>
+                    <ProgressBar progress={80} />
+                    <p>CSS</p>
+                    <ProgressBar progress={20} />
+                    <p>SASS</p>
+                    <ProgressBar progress={50} />
+                  </div>
+                </div>
+              )
+            }
+          })}
+
+          {aboutText.map((item, index) => {
+            if (item.id > 2) {
+              return (
+                <div>
+                  <AboutText
+                    text={item.text}
+                    title={item.title}
+                    className="flex flex-col"
+                  />
+                </div>
               )
             }
           })}
