@@ -12,7 +12,7 @@ import Services from '../../components/Services'
 export default function Home() {
   return (
     <div>
-      <div className="px-[2rem] md:px-[6rem] py-[2rem] gradient__bg">
+      <div className="px-[1rem] md:px-[6rem] py-[2rem] gradient__bg">
         <Navbar />
         <Header />
 
