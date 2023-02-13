@@ -3,7 +3,7 @@ export default function Possibility() {
   return (
     <section className="md:mt-40 mt-20">
       <div className="grid md:grid-cols-2 grid-cols-1">
-        <div>
+        <div className='pb-16'>
           <img src={Avatar} alt="" />
         </div>
 
