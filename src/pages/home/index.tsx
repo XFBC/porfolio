@@ -15,23 +15,13 @@ export default function Home() {
       <div className="px-[1rem] md:px-[6rem] py-[2rem] gradient__bg">
         <Navbar />
         <Header />
-
         <About />
         <Cta />
         <Projects />
         <Services />
         <Possibility />
       </div>
-
       <Footer />
-
-      {/*
-     <Brand />
-      <Feautures />
-      <Possibility />
-      <Cta />
-   
-      <Footer /> */}
     </div>
   )
 }
