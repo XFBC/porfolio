@@ -38,7 +38,7 @@ const About = () => {
                     <p>HTML</p>
                     <ProgressBar progress={80} />
                     <p>CSS</p>
-                    <ProgressBar progress={20} />
+                    <ProgressBar progress={40} />
                     <p>SASS</p>
                     <ProgressBar progress={50} />
                   </div>

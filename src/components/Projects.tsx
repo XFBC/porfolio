@@ -7,42 +7,8 @@ export default function Projects() {
   return (
     <section className="mt-36">
       <div className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
-        <h1>
-          A lot is happening, <br /> We are blogging about it.
-        </h1>
+        <h1>Projetos</h1>
       </div>
-      {/* 
-      <div className="flex md:flex-row flex-col gap-[50px] mt-[100px]">
-        <div className="">
-          <ProjectCard
-            imgUrl={Image}
-            title="GPT-3 and Open  AI is the future."
-            link="https://google.com.br"
-          />
-        </div>
-        <div className="grid grid-cols-2 gap-10 flex-1">
-          <ProjectCard
-            imgUrl={Image}
-            title="GPT-3 and Open  AI is the future."
-            link="https://google.com.br"
-          />
-          <ProjectCard
-            imgUrl={Image}
-            title="GPT-3 and Open  AI is the future."
-            link="https://google.com.br"
-          />
-          <ProjectCard
-            imgUrl={Image}
-            title="GPT-3 and Open  AI is the future."
-            link="https://google.com.br"
-          />
-          <ProjectCard
-            imgUrl={Image}
-            title="GPT-3 and Open  AI is the future."
-            link="https://google.com.br"
-          />
-        </div>
-      </div> */}
 
       <div className="flex md:flex-row flex-col gap-[50px] mt-[100px]">
         {projects.map((item, index) => {

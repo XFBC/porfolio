@@ -1,14 +1,10 @@
-
-import ProgressBar from './ProgressBar'
-
 interface textProps {
-  className: string
   title: string
   text: string
 }
-export default function AboutText({ text, title, className }: textProps) {
+export default function AboutText({ text, title }: textProps) {
   return (
-    <div className={className}>
+    <div className={`flex md:flex-row flex-col`}>
       <div>
         <div className="bg-gradientBar w-[38px] h-[3px] mb-[1rem]"></div>
         <h1 className="text-2xl w-[23rem] font-semibold">{title}</h1>
