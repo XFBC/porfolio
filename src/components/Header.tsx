@@ -26,7 +26,7 @@ const Header = () => {
           />
         </div>
         <div>
-          <img src={avatar} alt="" className="w-[600px]" />
+          <img src={avatar} alt="" className="w-[600px] " />
         </div>
       </div>
 
