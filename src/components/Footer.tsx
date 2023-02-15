@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-4">
             {navLinks.map(link => (
-              <a href="#">{link.title}</a>
+              <a href="#">{link.link}</a>
             ))}
           </div>
           <div className="mt-8 md:mt-0">

@@ -7,21 +7,22 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <section className="flex md:justify-between items-center md:pr-[6rem] py-[2rem] ">
+    <section className="flex md:justify-between items-center md:pr-[6rem] py-[2rem]">
       <div>
-        <img src={Logo} alt="logo" className="w-24 mr-[60px]" />
+        <img src={Logo} alt="logo" className="w-24 mr-[60px] z-50 relative" />
       </div>
+      <div className="absolute w-[700px] h-[700px] rounded-full bg-[#07325F] blur-[250px] left-[-440px]" />
 
       {navLinks.map(item => {
         return (
-          <div className="md:flex md:flex-1 justify-start items-center hidden">
-            <a href="">{item.title}</a>
+          <div className="md:flex justify-end  items-center hidden">
+            <a href="">{item.link}</a>
           </div>
         )
       })}
 
       <div className="md:ml-[307px]">
-        <button className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold">
+        <button className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold hidden md:block">
           {' '}
           Fale comigo
         </button>
@@ -55,7 +56,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursos-pointer text-[16px] text-white mb-2`}
               >
-                <a>{nav.title}</a>
+                <a>{nav.link}</a>
               </li>
             ))}
           </ul>{' '}
