@@ -1,6 +1,7 @@
 import React from 'react'
 import avatar from './../../public/assets/hero-image.png'
 import SwiperStacks from './SwiperStacks'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Header = () => {
   return (
@@ -11,7 +12,12 @@ const Header = () => {
             Olá, <br /> sou Fabricio Lopes
           </h1>{' '}
           <span className="text-[40px] text-[#81AFDD]">
-            Desenvolvedor Front-end
+            <Typewriter
+              words={['Desenvolvedor Front-end']}
+              loop={4}
+              typeSpeed={150}
+              cursor
+            />
           </span>
         </div>
         <div>
