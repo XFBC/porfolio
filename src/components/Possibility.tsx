@@ -3,8 +3,8 @@ export default function Possibility() {
   return (
     <section className="md:mt-40 mt-20">
       <div className="grid md:grid-cols-2 grid-cols-1">
-        <div className='pb-16 md:pb-0'>
-          <img src={Avatar} alt="w-[200px]" />
+        <div className="pb-16 md:pb-0 px-4 ml-[-2rem] ">
+          <img src={Avatar} alt="w-[200px] " />
         </div>
 
         <div className="flex flex-col justify-center">
