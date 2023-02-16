@@ -18,7 +18,7 @@ const Header = () => {
           </motion.div>
         </div>
         <div className="mt-5">
-          <div className="md:pt-[150px] mt-10">
+          <div className="md:pt-[150px] mt-10 h-[255px] md:h-auto">
             <h1 className="bg-gradientText bg-clip-text text-transparent md:text-[62px] text-[40px] font-bold relative">
               Olá, <br className="md:hidden hidden" /> sou <br /> Fabricio Lopes
             </h1>{' '}
