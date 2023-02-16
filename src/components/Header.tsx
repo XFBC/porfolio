@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
-    <section className="mt-24">
+    <section className="md:mt-24">
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className='px-4'>
           <motion.div
