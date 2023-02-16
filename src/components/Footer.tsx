@@ -10,7 +10,7 @@ export default function Footer() {
       <footer className="md:px-52 px-4 pt-44">
         <div className="text-center">
           <h1 className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
-            Do you want to step in to the future before others
+          Enter the future first
           </h1>
         </div>
 
