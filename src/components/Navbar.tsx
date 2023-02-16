@@ -38,16 +38,16 @@ const Navbar = () => {
 
         <div className="navbar-toggle" onClick={() => setToggle(!toggle)}>
           {toggle ? (
-            <Icon icon="line-md:close" className="text-2xl" />
+            <Icon icon="line-md:close" className="text-4xl" />
           ) : (
-            <Icon icon="ri:menu-3-fill" className="text-2xl" />
+            <Icon icon="ri:menu-3-fill" className="text-4xl" />
           )}
         </div>
 
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-6 absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle`}
+          } p-6 absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle z-40`}
         >
           {' '}
           <ul className="list-none flex justify-center items-center flex-col  mx-8">
