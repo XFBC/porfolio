@@ -2,6 +2,7 @@ import React from 'react'
 import avatar from './../../public/assets/hero-image.png'
 import SwiperStacks from './SwiperStacks'
 import { Typewriter } from 'react-simple-typewriter'
+import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
@@ -20,8 +21,14 @@ const Header = () => {
             />
           </span>
         </div>
-        <div className='mt-5'>
-          <img src={avatar} alt="" className="w-[600px]" />
+        <div className="mt-5">
+          <motion.div
+            className="container"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+          >
+            <img src={avatar} alt="" className="w-[600px]" />
+          </motion.div>
         </div>
       </div>
 

@@ -22,11 +22,11 @@ export default function ProjectCard({
       <div className="">
         <img src={imgUrl} alt="image" className="w-full h-[100%]" />
       </div>
-      <div className="about-bg py-8 px-8 rounded-b-xl">
+      <div className="about-bg md:py-8 py-4 md:px-8 px-4 rounded-b-xl">
         <h2 className="font-bold text-lg capitalize">{title}</h2>
         <p>{description}</p>
 
-        <div className="pt-20">
+        <div className="md:pt-20 pt-10">
           <a target="_blank" href={link}>
             Ver projeto
           </a>
