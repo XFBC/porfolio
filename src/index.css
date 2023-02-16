@@ -20,6 +20,7 @@
 html {
   background-color: var(--color-bg);
   font-family: var(--font-family);
+  scroll-margin-top: 2rem;
 }
 
 a {

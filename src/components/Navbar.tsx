@@ -3,6 +3,8 @@ import { navLinks } from '../constants/mock'
 import Logo from './../../public/assets/logo/logo.svg'
 import { Icon } from '@iconify/react'
 
+import { Link } from 'react-scroll'
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
@@ -16,7 +18,15 @@ const Navbar = () => {
       {navLinks.map(item => {
         return (
           <div className="md:flex justify-end  items-center hidden">
-            <a href="">{item.link}</a>
+            <Link
+              activeClass="active"
+              to={item.link}
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <a href="">{item.link}</a>
+            </Link>
           </div>
         )
       })}
@@ -56,7 +66,16 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursos-pointer text-[16px] text-white mb-2`}
               >
-                <a>{nav.link}</a>
+                <a></a>
+                <Link
+                  activeClass="active"
+                  to={nav.link}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  <a href="">{nav.link}</a>
+                </Link>
               </li>
             ))}
           </ul>{' '}

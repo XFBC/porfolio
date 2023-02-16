@@ -9,16 +9,28 @@ import Possibility from '../../components/Possibility'
 import Projects from '../../components/Projects'
 import Services from '../../components/Services'
 
+import { Element } from 'react-scroll'
+
 export default function Home() {
   return (
     <div>
       <div className="px-[1rem] md:px-[6rem] py-[2rem] gradient__bg">
         <Navbar />
-        <Header />
-        <About />
+        <Element name="Home" className="element">
+          <Header />
+        </Element>
+        <Element name="Sobre mim" className="element">
+          <About />
+        </Element>
+
         <Cta />
-        <Projects />
-        <Services />
+        <Element name="Portfolio" className="element">
+          <Projects />
+        </Element>
+        <Element name="Serviços" className="element">
+          <Services />
+        </Element>
+
         <Possibility />
       </div>
       <Footer />
