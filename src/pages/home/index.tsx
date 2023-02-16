@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <div>
       <div className="px-[1rem] md:px-[6rem] py-[2rem] gradient__bg">
+        
         <Navbar />
         <Element name="Home" className="element">
           <Header />
