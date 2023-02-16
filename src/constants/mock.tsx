@@ -151,5 +151,36 @@ export const ServicesMock = [
     id: 1,
     title: 'Improving end distrusts instantly',
     text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+  }
+]
+
+export const socialLinks = [
+  {
+    id: 1,
+    link: {
+      url: 'https://google.com.br'
+    },
+    icon: 'fe:instagram'
   },
+  {
+    id: 2,
+    link: {
+      url: 'https://google.com.br'
+    },
+    icon: 'uil:linkedin'
+  },
+  {
+    id: 3,
+    link: {
+      url: 'https://google.com.br'
+    },
+    icon: 'mdi:github'
+  },
+  {
+    id: 4,
+    link: {
+      url: 'https://google.com.br'
+    },
+    icon: 'ant-design:behance-circle-filled'
+  }
 ]

@@ -2,6 +2,7 @@ import React from 'react'
 
 import Logo from './../../public/assets/logo/logo.svg'
 import { navLinks } from '../constants/mock'
+import SocialLinks from './SocialLinks'
 
 export default function Footer() {
   return (
@@ -14,8 +15,10 @@ export default function Footer() {
         </div>
 
         <div className="grid md:grid-cols-4 grid-cols-1 mt-[150px] md:text-start text-center">
-          <div className="flex justify-center md:block mb-8 md:mb-0">
-            <img src={Logo} alt="" />
+          <div className="flex items-center md:block mb-8 md:mb-0 flex-col  ">
+            <img src={Logo} alt="" className="w-40 mb-4" />
+
+            <SocialLinks />
           </div>
           <div className="flex flex-col gap-4">
             {navLinks.map(link => (

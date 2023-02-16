@@ -1,10 +1,16 @@
 import Avatar from './../../public/assets/hero-image.png'
+import SocialLinks from './SocialLinks'
+
 export default function Possibility() {
   return (
     <section className="md:mt-40 mt-20">
       <div className="grid md:grid-cols-2 grid-cols-1">
-        <div className="pb-16 md:pb-0 px-4 ml-[-2rem] ">
+        <div className="pb-6 md:pb-0 px-4 ml-[-2rem] ">
           <img src={Avatar} alt="w-[200px] " />
+
+          <div className="md:hidden block">
+            <SocialLinks />
+          </div>
         </div>
 
         <div className="flex flex-col justify-center">
@@ -20,6 +26,9 @@ export default function Possibility() {
             alteration boisterous the attachment. Party we years to order allow
             asked of.
           </p>
+          <div className="mt-2 hidden md:block">
+            <SocialLinks />
+          </div>
         </div>
       </div>
     </section>
