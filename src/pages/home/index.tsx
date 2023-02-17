@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <div>
       <div className="px-[1rem] md:px-[6rem] py-[2rem] gradient__bg">
-        
         <Navbar />
         <Element name="Home" className="element">
           <Header />
@@ -32,7 +31,9 @@ export default function Home() {
           <Services />
         </Element>
 
-        <Possibility />
+        <Element name="Contato" className="element">
+          <Possibility />
+        </Element>
       </div>
       <Footer />
     </div>
