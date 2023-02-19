@@ -62,7 +62,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-6 absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle z-40`}
+          } p-[3.5rem] absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle z-40`}
         >
           {' '}
           <ul className="list-none flex justify-center items-center flex-col  mx-8">
@@ -79,7 +79,7 @@ const Navbar = () => {
                   smooth={true}
                   duration={500}
                 >
-                  <a href="">{nav.link}</a>
+                  <a href="" className='text-xl'>{nav.link}</a>
                 </Link>
               </li>
             ))}
