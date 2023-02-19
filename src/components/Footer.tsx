@@ -10,14 +10,13 @@ export default function Footer() {
       <footer className="md:px-52 px-4 pt-44">
         <div className="text-center">
           <h1 className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
-          Enter the future first
+            Enter the future first
           </h1>
         </div>
 
-        <div className="grid md:grid-cols-4 grid-cols-1 mt-[150px] md:text-start text-center">
-          <div className="flex items-center md:block mb-8 md:mb-0 flex-col  ">
+        <div className="grid md:grid-cols-4 grid-cols-1 mt-[150px] md:text-start text-center gap-20">
+          <div className="flex flex-col items-center">
             <img src={Logo} alt="" className="w-40 mb-4" />
-
             <SocialLinks />
           </div>
           <div className="flex flex-col gap-4">

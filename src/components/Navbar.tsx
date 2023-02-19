@@ -25,7 +25,12 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              <a href="">{item.link}</a>
+              <a
+                href=""
+                className="text-xl hover:text-[#FF4820] transition ease-in-out delay-150 hover:-translate-y-1 hover:text-2xl  duration-300"
+              >
+                {item.link}
+              </a>
             </Link>
           </div>
         )

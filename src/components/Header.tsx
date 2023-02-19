@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <section className="md:mt-24">
       <div className="grid md:grid-cols-2 grid-cols-1">
-        <div className='px-4'>
+        <div className=" md:w-[480px]">
           <motion.div
             className="container"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.8 }}
           >
-            <img src={avatar} alt="w-[300px] h-[250px]" className="" />
+            <img src={avatar} alt="w-[50px]" className="" />
           </motion.div>
         </div>
         <div className="mt-5">
