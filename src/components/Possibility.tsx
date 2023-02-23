@@ -5,7 +5,7 @@ export default function Possibility() {
   return (
     <section className="md:mt-40 mt-20">
       <div className="grid md:grid-cols-2 grid-cols-1">
-        <div className="pb-6 md:pb-0 px-4 ml-[-2rem] ">
+        <div className="pb-6 md:pb-0 px-4">
           <img src={Avatar} alt="w-[200px] " />
 
           <div className="md:hidden block">

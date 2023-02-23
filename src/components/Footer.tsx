@@ -4,6 +4,8 @@ import Logo from './../../public/assets/logo/logo.svg'
 import { navLinks } from '../constants/mock'
 import SocialLinks from './SocialLinks'
 
+import { Icon } from '@iconify/react'
+
 export default function Footer() {
   return (
     <section className="mt-[150px] bg-[#031B34]">
@@ -30,9 +32,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-center mt-20 pb-7">
-          <p>© 2021 GPT-3. All rights reserved.</p>
+        <div className="text-center mt-20">
+          <p>© 2023 FBC. Todos os direitos reservados</p>
         </div>
+        <a href="https://github.com/XFBC/porfolio" target="_blank">
+          <div className="flex justify-center pb-7 flex-row items-center gap-2 mt-4">
+            <Icon  icon="el:github" className="text-4xl" />
+            Código fonte
+          </div>
+        </a>
       </footer>
     </section>
   )
