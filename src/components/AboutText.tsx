@@ -1,4 +1,3 @@
-
 import ProgressBar from './ProgressBar'
 
 interface textProps {
@@ -11,7 +10,7 @@ export default function AboutText({ text, title, className }: textProps) {
     <div className={className}>
       <div>
         <div className="bg-gradientBar w-[38px] h-[3px] mb-[1rem]"></div>
-        <h1 className="text-2xl w-[23rem] font-semibold">{title}</h1>
+        <h1 className="text-2xl  font-semibold">{title}</h1>
       </div>
 
       <div className="">

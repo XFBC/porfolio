@@ -134,23 +134,33 @@ export const projects = [
 export const ServicesMock = [
   {
     id: 1,
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title: 'Desenvolvimento de páginas web',
+    text: 'Criação de páginas web utilizando React.js, HTML, CSS e JavaScript, seguindo as melhores práticas de desenvolvimento e design '
   },
   {
-    id: 1,
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    id: 2,
+    title: 'Desenvolvimento de interfaces de usuário (UI)',
+    text: 'Criação de interfaces de usuário visualmente atraentes e intuitivas para melhorar a experiência do usuário'
   },
   {
-    id: 1,
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    id: 3,
+    title: 'Desenvolvimento de animações e efeitos visuais',
+    text: 'Criação de animações e efeitos visuais utilizando tecnologias como CSS, JavaScript e bibliotecas do ecossistema React'
   },
   {
-    id: 1,
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    id: 4,
+    title: 'Otimização de páginas web',
+    text: 'Para melhorar a performance e velocidade de carregamento, garantindo uma experiência rápida e agradável para o usuário'
+  },
+  {
+    id: 5,
+    title: 'Teste e depuração de páginas web',
+    text: 'Para garantir a qualidade e funcionalidade do site ou aplicativo'
+  },
+  {
+    id: 6,
+    title: 'Consultoria e aconselhamento técnico',
+    text: 'Em relação às melhores práticas de design e desenvolvimento de front-end'
   }
 ]
 

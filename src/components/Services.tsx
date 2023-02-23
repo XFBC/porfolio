@@ -13,10 +13,10 @@ export default function Services() {
             Serviços
           </h1>{' '}
           <div className="text-[#FF8A71] relative">
-            <p>Request Early Access to Get Started</p>
+            <p>Sou responsável por criar a parte visual de um website ou aplicativo web</p>
           </div>
         </div>
-        <div className="col-span-2 flex flex-col gap-12 relative">
+        <div className="col-span-2 flex flex-col gap-12 relative mt-6 md:mt-0">
           {ServicesMock.map(service => (
             <Service title={service.title} text={service.text} />
           ))}
