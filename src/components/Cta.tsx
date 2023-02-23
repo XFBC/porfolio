@@ -11,7 +11,7 @@ const Cta = () => {
           contribuir para o sucesso de sua empresa.
         </h2>
         <a
-          href=""
+          href="/assets/curriculo.pdf"
           target="_blank"
           className="bg-black text-[#FFFF] px-[40px] py-[14px] rounded-[40px] md:mt-0 mt-4 flex flex-row items-center gap-2 hover:bg-gray-900"
         >
