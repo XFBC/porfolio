@@ -44,13 +44,6 @@ const Navbar = () => {
       </div>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        {/* <img
-          src={toggle ? close : menu}
-          alt="menu"
-          className="w-7 h-7 object-contain"
-          onClick={() => setToggle(prev => !prev)}
-        /> */}
-
         <div className="navbar-toggle" onClick={() => setToggle(!toggle)}>
           {toggle ? (
             <Icon icon="line-md:close" className="text-4xl" />
@@ -79,7 +72,9 @@ const Navbar = () => {
                   smooth={true}
                   duration={500}
                 >
-                  <a href="" className='text-xl'>{nav.link}</a>
+                  <a href="" className="text-xl">
+                    {nav.link}
+                  </a>
                 </Link>
               </li>
             ))}

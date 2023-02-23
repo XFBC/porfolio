@@ -48,27 +48,27 @@ export const aboutText = [
   {
     id: 1,
     title: 'Sobre mim',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+    text: 'Sou um desenvolvedor front-end comprometido e disciplinado, tenho 27 anos de  idade e uma paixão por criar experiências web excepcionais. Tenho experiência em trabalhar com várias tecnologias de front-end, incluindo HTML, CSS, JavaScript e      frameworks como React.JS. Minha abordagem organizada e focada me permite     atender aos prazos do projeto com eficiência e garantir que o código seja limpo e   bem documentado. Estou constantemente procurando novas oportunidades para  expandir meu conhecimento e habilidades de desenvolvimento.'
   },
   {
     id: 2,
-    title: 'STACKS',
-    text: 'Magni qui laborum sunt totam non perferendis explicabo odit.'
+    title: 'Stacks',
+    text: ''
   },
   {
     id: 3,
-    title: 'Knowledgebase',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+    title: 'Em estudo',
+    text: 'ReactJS, NodeJS, TypeScript, React Native, Banco de dados'
   },
   {
     id: 4,
-    title: 'Education',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+    title: 'Hard Skills',
+    text: 'Conexão com APIs, Ecossistema React.js/Next.js, Bibliotecas de UI,  Figma, Photoshop, Design de interfaces, Kanbam, Scrum, Git, Github, Laravel    '
   },
   {
     id: 5,
-    title: 'Workers',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia inventore. Magni qui laborum sunt totam non perferendis explicabo odit, culpa atque. Id quam labore ipsum quos? Quasi, blanditiis nihil!'
+    title: 'Soft Skills',
+    text: 'Comunicação efetiva, Habilidade de trabalhar em colaboração com outros membros da equipe, Gestão de tempo, Pensamento criativo, Auto-gerenciamento, Foco na satisfação do cliente e entendimento das necessidades do usuário final'
   }
 ]
 
