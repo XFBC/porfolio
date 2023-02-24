@@ -36,8 +36,8 @@ export default function Footer() {
           <p>© 2023 FBC. Todos os direitos reservados</p>
         </div>
         <a href="https://github.com/XFBC/porfolio" target="_blank">
-          <div className="flex justify-center pb-7 flex-row items-center gap-2 mt-4">
-            <Icon  icon="el:github" className="text-4xl" />
+          <div className="flex justify-center pb-7 flex-row items-center gap-2 mt-4  transition delay-150 duration-300 ease-in-out hover:-translate-z-1 hover:scale-110 text-gray-600 hover:text-white">
+            <Icon  icon="el:github" className="text-4xl " />
             Código fonte
           </div>
         </a>
