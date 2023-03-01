@@ -24,23 +24,31 @@ export const navLinks = [
 export const stacks = [
   {
     id: 1,
-    image: '/assets/stack-1.png'
+    image: '/assets/stack-1.svg'
   },
   {
     id: 2,
-    image: '/assets/stack-2.png'
+    image: '/assets/stack-2.svg'
   },
   {
     id: 3,
-    image: '/assets/stack-3.png'
+    image: '/assets/stack-3.svg'
   },
   {
     id: 4,
     image: '/assets/stack-4.svg'
   },
   {
-    id: 5,
-    image: '/assets/stack-5.png'
+    id: 6,
+    image: '/assets/stack-6.svg'
+  },
+  {
+    id: 7,
+    image: '/assets/stack-6.svg'
+  },
+  {
+    id: 8,
+    image: '/assets/stack-7.svg'
   }
 ]
 
