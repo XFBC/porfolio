@@ -33,7 +33,11 @@ export default function App() {
         {stacks.map(stack => (
           <SwiperSlide>
             <div className="flex justify-center">
-              <img src={stack.image} alt="" className="w-14" />
+              <img
+                src={stack.image}
+                alt=""
+                className="w-14 grayscale-[1] hover:grayscale-0"
+              />
             </div>
           </SwiperSlide>
         ))}

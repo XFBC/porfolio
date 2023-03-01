@@ -4,6 +4,8 @@ import SwiperStacks from './SwiperStacks'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
 
+
+
 const Header = () => {
   return (
     <section className="md:mt-24">
@@ -35,6 +37,8 @@ const Header = () => {
       </div>
 
       <SwiperStacks />
+
+     
     </section>
   )
 }
