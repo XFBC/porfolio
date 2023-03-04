@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="md:mt-[70px] mt-8">
       
-      <Marquee gradient={false} speed={100}>
+      <Marquee gradient={false} speed={80} delay={10}>
         <Stacks />
       </Marquee>
     </div>
