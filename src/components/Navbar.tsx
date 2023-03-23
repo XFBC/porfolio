@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { navLinks } from '../constants/mock'
 import Logo from './../../public/assets/logo/logo.svg'
 import { Icon } from '@iconify/react'
-
+import Fade from 'react-reveal/Fade'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -11,36 +11,42 @@ const Navbar = () => {
   return (
     <section className="flex md:justify-between items-center md:pr-[6rem] py-[2rem]">
       <div>
-        <img src={Logo} alt="logo" className="w-24 mr-[60px] z-50 relative" />
+        <Fade>
+          <img
+            src={Logo}
+            alt="logo"
+            className="w-24 mr-[60px] z-50 relative  cursor-pointer"
+          />
+        </Fade>
       </div>
       <div className="absolute w-[700px] h-[700px] rounded-full bg-[#07325F] blur-[250px] left-[-440px]" />
 
       {navLinks.map(item => {
         return (
           <div className="md:flex justify-end  items-center hidden">
-            <Link
-              activeClass="active"
-              to={item.link}
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              <a
-                href=""
-                className="text-xl hover:text-[#FF4820] transition ease-in-out delay-150 hover:-translate-y-1 hover:text-2xl  duration-300"
+            <Fade right>
+              <Link
+                activeClass="active"
+                to={item.link}
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-[#FF4820] transition ease-in-out delay-150 hover:-translate-y-1 hover:text-2xl  duration-300"
               >
                 {item.link}
-              </a>
-            </Link>
+              </Link>
+            </Fade>
           </div>
         )
       })}
 
       <div className="md:ml-[307px]">
-        <button className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold hidden md:block">
-          {' '}
-          Fale comigo
-        </button>
+        <Fade>
+          <button className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold hidden md:block">
+            {' '}
+            Fale comigo
+          </button>
+        </Fade>
       </div>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -72,7 +78,7 @@ const Navbar = () => {
                   smooth={true}
                   duration={500}
                 >
-                  <a href="" className="text-xl">
+                  <a href="#" className="text-xl">
                     {nav.link}
                   </a>
                 </Link>

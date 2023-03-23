@@ -3,8 +3,7 @@ import avatar from './../../public/assets/hero-image-2.webp'
 import SwiperStacks from './SwiperStacks'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
-
-
+import Slide from 'react-reveal/Slide'
 
 const Header = () => {
   return (
@@ -16,29 +15,33 @@ const Header = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.8 }}
           >
-            <img src={avatar} alt="w-[50px]" className="" />
+            <Slide left cascade>
+              <img src={avatar} alt="w-[50px]" className="" />
+            </Slide>
           </motion.div>
         </div>
-        <div className="mt-5">
-          <div className="md:pt-[150px] mt-10 h-[255px] md:h-auto">
-            <h1 className="bg-gradientText bg-clip-text text-transparent md:text-[62px] text-[40px] font-bold relative">
-              Olá, <br className="md:hidden hidden" /> sou <br /> Fabricio Lopes
-            </h1>{' '}
-            <span className="text-[40px] text-[#81AFDD]">
-              <Typewriter
-                words={['Desenvolvedor Front-end']}
-                loop={100}
-                typeSpeed={150}
-                cursor
-              />
-            </span>
+
+        <Slide bottom>
+          <div className="mt-5">
+            <div className="md:pt-[150px] mt-10 h-[255px] md:h-auto">
+              <h1 className="bg-gradientText bg-clip-text text-transparent md:text-[62px] text-[40px] font-bold relative">
+                Olá, <br className="md:hidden hidden" /> sou <br /> Fabricio
+                Lopes
+              </h1>{' '}
+              <span className="text-[40px] text-[#81AFDD]">
+                <Typewriter
+                  words={['Desenvolvedor Front-end']}
+                  loop={100}
+                  typeSpeed={150}
+                  cursor
+                />
+              </span>
+            </div>
           </div>
-        </div>
+        </Slide>
       </div>
 
       <SwiperStacks />
-
-     
     </section>
   )
 }

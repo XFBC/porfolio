@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { stacks } from '../constants/mock'
 const Stacks = () => {
