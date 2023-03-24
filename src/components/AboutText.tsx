@@ -7,7 +7,7 @@ interface textProps {
 }
 export default function AboutText({ text, title, className }: textProps) {
   return (
-    <div className={className}>
+    <div className={className} >
       <div>
         <div className="bg-gradientBar w-[38px] h-[3px] mb-[1rem]"></div>
         <h1 className="text-2xl  font-semibold">{title}</h1>

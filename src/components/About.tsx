@@ -2,7 +2,6 @@ import React from 'react'
 import { aboutText } from '../constants/mock'
 import AboutText from './AboutText'
 import ProgressBar from './ProgressBar'
-import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
@@ -11,13 +10,15 @@ const About = () => {
         {aboutText.map((item, index) => {
           if (item.id === 1) {
             return (
-              <Fade bottom>
-                <AboutText
-                  text={item.text}
-                  title={item.title}
-                  className="flex flex-col"
+              <div data-aos="fade-up"> 
+
+              <AboutText
+                text={item.text}
+                title={item.title}
+                className="flex flex-col"
+                
                 />
-              </Fade>
+                </div>
             )
           }
         })}
@@ -57,7 +58,8 @@ const About = () => {
           {aboutText.map((item, index) => {
             if (item.id > 2) {
               return (
-                <div>
+                <div data-aos="fade-up">
+
                   <AboutText
                     text={item.text}
                     title={item.title}
