@@ -2,6 +2,7 @@ import React from 'react'
 import { aboutText } from '../constants/mock'
 import AboutText from './AboutText'
 import ProgressBar from './ProgressBar'
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
@@ -10,15 +11,17 @@ const About = () => {
         {aboutText.map((item, index) => {
           if (item.id === 1) {
             return (
-              <AboutText
-                text={item.text}
-                title={item.title}
-                className="flex flex-col"
-              />
+              <Fade bottom>
+                <AboutText
+                  text={item.text}
+                  title={item.title}
+                  className="flex flex-col"
+                />
+              </Fade>
             )
           }
         })}
-          {/* <div className="pt-[90px]">
+        {/* <div className="pt-[90px]">
             <h1 className="bg-gradientText bg-clip-text text-transparent text-[44px] font-bold">
               The possibilities are <br /> beyond your imagination
             </h1>
