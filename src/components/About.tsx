@@ -10,15 +10,18 @@ const About = () => {
         {aboutText.map((item, index) => {
           if (item.id === 1) {
             return (
-              <div data-aos="fade-up"> 
-
-              <AboutText
-                text={item.text}
-                title={item.title}
-                className="flex flex-col"
-                
+              <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <AboutText
+                  text={item.text}
+                  title={item.title}
+                  className="flex flex-col"
                 />
-                </div>
+              </div>
             )
           }
         })}
@@ -32,7 +35,12 @@ const About = () => {
           {aboutText.map((item, index) => {
             if (item.id === 2) {
               return (
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
                   <AboutText
                     text={item.text}
                     title={item.title}
@@ -58,8 +66,12 @@ const About = () => {
           {aboutText.map((item, index) => {
             if (item.id > 2) {
               return (
-                <div data-aos="fade-up">
-
+                <div
+                data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
                   <AboutText
                     text={item.text}
                     title={item.title}

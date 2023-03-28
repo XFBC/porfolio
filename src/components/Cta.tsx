@@ -4,7 +4,13 @@ import { Icon } from '@iconify/react'
 
 const Cta = () => {
   return (
-    <section className="w-full bg_cta mt-[150px] rounded-[10px] px-[40px] py-[50px]">
+    <section
+      className="w-full bg_cta mt-[150px] rounded-[10px] px-[40px] py-[50px]"
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
       <div className="flex md:flex-row flex-col justify-between text-black items-center">
         <h2 className="font-semibold text-xl">
           Baixe agora mesmo meu currículo e descubra como <br /> posso
