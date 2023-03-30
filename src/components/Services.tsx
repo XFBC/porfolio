@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 export default function Services() {
   const [prismicService] = useAllPrismicDocumentsByType<any>('servico')
 
-  console.log(prismicService)
+  // console.log(prismicService)
   return (
     <section className="mt-[150px]">
       <div className="grid md:grid-cols-3 grid-cols-1 ">

@@ -19,8 +19,12 @@ export default function ProjectCard({
 }: cardProps) {
   return (
     <div className="max-w-lg">
-      <div className="">
-        <img src={imgUrl} alt="image" className="w-full h-[100%]" />
+      <div className="w-full h-[200px]">
+        <img
+          src={imgUrl}
+          alt="image"
+          className="w-full object-cover h-[100%]"
+        />
       </div>
       <div className="about-bg md:py-8 py-4 md:px-8 px-4 rounded-b-xl">
         <h2 className="font-bold text-lg capitalize">{title}</h2>
