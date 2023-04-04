@@ -8,7 +8,7 @@ export default function Services() {
 
   // console.log(prismicService)
   return (
-    <section className="mt-[150px]">
+    <section className="mt-[250px]">
       <div className="grid md:grid-cols-3 grid-cols-1 ">
         <div className="">
           <div className="absolute w-[700px] h-[700px] rounded-full bg-[#07325F] blur-[250px] left-[-440px]" />

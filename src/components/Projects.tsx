@@ -8,7 +8,7 @@ export default function Projects() {
   const [prismicProjects] = useAllPrismicDocumentsByType<any>('projeto')
   console.log(prismicProjects)
   return (
-    <section className="mt-36">
+    <section className="mt-36 b-6">
       <div className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
         <h1>Projetos</h1>
       </div>
@@ -25,7 +25,7 @@ export default function Projects() {
           ''
         )} */}
 
-        {prismicProjects?.map((item, index) => {
+        {/* {prismicProjects?.map((item, index) => {
           if (index === 0) {
             return (
               <ProjectCard
@@ -36,33 +36,19 @@ export default function Projects() {
               />
             )
           }
-        })}
+        })} */}
 
-        <div className="grid grid-cols-2 gap-10 flex-1">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-[15rem] md:gap-6">
           {prismicProjects?.map((item, index) => {
-            if (index > 0) {
-              return (
-                <ProjectCard
-                  imgUrl={item.data.image.url}
-                  title={item.data.title}
-                  link={item.data.project.url}
-                  description={item.data.description}
-                />
-              )
-            }
+            return (
+              <ProjectCard
+                imgUrl={item.data.image.url}
+                title={item.data.title}
+                link={item.data.project.url}
+                description={item.data.description}
+              />
+            )
           })}
-          {/* {projects.map((item, index) => {
-            if (item.id > 1) {
-              return (
-                <ProjectCard
-                  imgUrl={item.image.url}
-                  title={item.title}
-                  link={item.link.url}
-                  description="lorem ipsum dolor simet"
-                />
-              )
-            }
-          })} */}
         </div>
       </div>
     </section>
