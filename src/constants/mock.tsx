@@ -176,28 +176,28 @@ export const socialLinks = [
   {
     id: 1,
     link: {
-      url: 'https://google.com.br'
+      url: 'https://www.instagram.com/fbc.lopes/'
     },
     icon: 'fe:instagram'
   },
   {
     id: 2,
     link: {
-      url: 'https://google.com.br'
+      url: 'https://www.linkedin.com/in/fabricio-lopes-8b9530227/'
     },
     icon: 'uil:linkedin'
   },
   {
     id: 3,
     link: {
-      url: 'https://google.com.br'
+      url: 'https://github.com/XFBC'
     },
     icon: 'mdi:github'
   },
   {
     id: 4,
     link: {
-      url: 'https://google.com.br'
+      url: 'https://www.behance.net/fabriciolopess'
     },
     icon: 'ant-design:behance-circle-filled'
   }

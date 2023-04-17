@@ -37,10 +37,13 @@ const Navbar = () => {
       })}
 
       <div className="md:ml-[307px]">
-        <button className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold hidden md:block">
+        <a
+          href="https://wa.me/91980157220"
+          className="btn primary bg-[#FF4820] px-[26px] py-[17px] rounded-[5px] hover:bg-orange-800 font-bold hidden md:block"
+        >
           {' '}
           Fale comigo
-        </button>
+        </a>
       </div>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

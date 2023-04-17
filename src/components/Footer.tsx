@@ -11,8 +11,9 @@ export default function Footer() {
     <section className="mt-[150px] bg-[#031B34]">
       <footer className="md:px-52 px-4 pt-44">
         <div className="text-center">
-          <h1 className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
-            Enter the future first
+          <h1 className="bg-gradientText bg-clip-text text-transparent text-[24px] md:text-[32px] font-bold">
+            "Desenvolvedor Front-End apaixonado por construir experiências
+            incríveis na web"
           </h1>
         </div>
 
@@ -37,7 +38,7 @@ export default function Footer() {
         </div>
         <a href="https://github.com/XFBC/porfolio" target="_blank">
           <div className="flex justify-center pb-7 flex-row items-center gap-2 mt-4  transition delay-150 duration-300 ease-in-out hover:-translate-z-1 hover:scale-110 text-gray-600 hover:text-white">
-            <Icon  icon="el:github" className="text-4xl " />
+            <Icon icon="el:github" className="text-4xl " />
             Código fonte
           </div>
         </a>
