@@ -9,7 +9,7 @@ import { Icon } from '@iconify/react'
 export default function Footer() {
   return (
     <section className="mt-[150px] bg-[#031B34]">
-      <footer className="md:px-52 px-4 pt-44">
+      <footer className="md:px-52 px-4 pt-14">
         <div className="text-center">
           <h1 className="bg-gradientText bg-clip-text text-transparent text-[24px] md:text-[32px] font-bold">
             "Desenvolvedor Front-End apaixonado por construir experiências

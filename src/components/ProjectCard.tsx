@@ -18,7 +18,13 @@ export default function ProjectCard({
   description
 }: cardProps) {
   return (
-    <div className="max-w-lg max-h-[250px]">
+    <div
+      className="max-w-lg max-h-[250px]"
+      data-aos="zoom-in-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
       <div className="w-full h-[200px]">
         <img
           src={imgUrl}

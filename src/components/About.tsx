@@ -6,7 +6,13 @@ import ProgressBar from './ProgressBar'
 const About = () => {
   return (
     <section>
-      <div className="mt-[126px] md:px-[63px] px-4 md:py-[50px] py-10 about-bg rounded-lg">
+      <div
+        className="mt-[126px] md:px-[63px] px-4 md:py-[50px] py-10 about-bg rounded-lg"
+        data-aos="zoom-in-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         {aboutText.map((item, index) => {
           if (item.id === 1) {
             return (
@@ -67,7 +73,7 @@ const About = () => {
             if (item.id > 2) {
               return (
                 <div
-                data-aos="fade-left"
+                  data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-delay="50"
                   data-aos-duration="1000"

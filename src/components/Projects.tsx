@@ -9,7 +9,13 @@ export default function Projects() {
   console.log(prismicProjects)
   return (
     <section className="mt-36 b-6">
-      <div className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold">
+      <div
+        className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
         <h1>Projetos</h1>
       </div>
 
@@ -38,7 +44,10 @@ export default function Projects() {
           }
         })} */}
 
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-[15rem] md:gap-6">
+        <div
+          className="grid md:grid-cols-3 grid-cols-1 gap-[15rem] md:gap-6"
+        
+        >
           {prismicProjects?.map((item, index) => {
             return (
               <ProjectCard
