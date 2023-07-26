@@ -1,58 +1,34 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { navLinks } from '../constants/mock'
 import Logo from './../../public/assets/logo/logo.svg'
 import { Icon } from '@iconify/react'
+
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
-  const [scrolling, setScrolling] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolling(true)
-      } else {
-        setScrolling(false)
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
 
   return (
-    <section
-      className={`flex md:justify-between items-center md:px-28 md:py-[2rem] py-4 px-4 navbar-bg ${
-        scrolling ? 'fixed top-0 left-0 right-0 z-50 shadow-md md:py-2 py-2 navbar-bg transition-all' : ''
-      }`}
-    >
+    <section className="flex md:justify-between items-center md:pr-[6rem] py-[2rem]">
       <div>
         <img
           src={Logo}
           alt="logo"
-          className={`w-24 mr-[60px] z-50 relative cursor-pointer ${
-            scrolling ? 'w-[60px]' : ''
-          }`}
+          className="w-24 mr-[60px] z-50 relative  cursor-pointer"
         />
       </div>
+      <div className="absolute w-[700px] h-[700px] rounded-full bg-[#07325F] blur-[250px] left-[-440px]" />
 
       {navLinks.map(item => {
         return (
-          <div
-            key={item.link}
-            className="md:flex justify-end items-center hidden"
-          >
+          <div className="md:flex justify-end  items-center hidden">
             <Link
               activeClass="active"
               to={item.link}
               spy={true}
               smooth={true}
               duration={500}
-              className="text-xl cursor-pointer hover:text-[#FF4820] transition ease-in-out delay-150 hover:-translate-y-1 hover:text-2xl duration-300"
+              className="text-xl cursor-pointer hover:text-[#FF4820] transition ease-in-out delay-150 hover:-translate-y-1 hover:text-2xl  duration-300"
             >
               {item.link}
             </Link>
@@ -82,7 +58,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-[3.5rem] absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle z-[1030]`}
+          } p-[3.5rem] absolute top-20 right-0 mt-12 mx-4 my-2 min-w-[140px] rounded-xl glass_effect_navbarTogle z-40`}
         >
           {' '}
           <ul className="list-none flex justify-center items-center flex-col  mx-8">
