@@ -8,7 +8,7 @@ export default function Services() {
 
   // console.log(prismicService)
   return (
-    <section className="mt-[250px]">
+    <section className="mt-[320px]">
       <div className="grid md:grid-cols-3 grid-cols-1 ">
         <div
           data-aos="zoom-in-right"

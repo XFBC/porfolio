@@ -20,29 +20,6 @@ export default function Projects() {
       </div>
 
       <div className="flex md:flex-row flex-col gap-[50px] mt-[100px]">
-        {/* {prismicProjects?.data.type === 'react-um' ? (
-          <ProjectCard
-            imgUrl={prismicProjects?.data.image.url}
-            title={prismicProjects?.data.image.title}
-            link={prismicProjects?.data.project.url}
-            description={prismicProjects?.data.description}
-          />
-        ) : (
-          ''
-        )} */}
-
-        {/* {prismicProjects?.map((item, index) => {
-          if (index === 0) {
-            return (
-              <ProjectCard
-                imgUrl={item.data.image.url}
-                title={item.data.title}
-                link={item.data.project.url}
-                description={item.data.description}
-              />
-            )
-          }
-        })} */}
 
         <div
           className="grid md:grid-cols-3 grid-cols-1 gap-[15rem] md:gap-6"

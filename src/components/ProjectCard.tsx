@@ -34,9 +34,9 @@ export default function ProjectCard({
       </div>
       <div className="about-bg md:py-8 py-4 md:px-8 px-4 rounded-b-xl h-full">
         <h2 className="font-bold text-lg capitalize">{title}</h2>
-        <p>{description}</p>
+        <p className="min-h-[140px]">{description}</p>
 
-        <div className="md:pt-20 pt-10">
+        <div className="">
           <a target="_blank" href={link}>
             Ver projeto
           </a>
