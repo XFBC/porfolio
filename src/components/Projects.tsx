@@ -6,7 +6,7 @@ import { useAllPrismicDocumentsByType } from '@prismicio/react'
 
 export default function Projects() {
   const [prismicProjects] = useAllPrismicDocumentsByType<any>('projeto')
-  console.log(prismicProjects)
+  // console.log(prismicProjects)
   return (
     <section className="mt-36 b-6">
       <div

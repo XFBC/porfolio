@@ -20,6 +20,7 @@ export default function Services() {
           <h1 className="bg-gradientText bg-clip-text text-transparent text-[62px] font-bold z-40 relative ">
             Serviços
           </h1>{' '}
+          
           <div className="text-[#FF8A71] relative">
             <p>
               Sou responsável por criar a parte visual de um website ou
