@@ -194,3 +194,8 @@ a {
   box-shadow: var(--card-shadow);
   border-radius: 20px;
 }
+
+
+input::placeholder{
+  color: white;
+}

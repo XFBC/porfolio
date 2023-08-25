@@ -10,6 +10,7 @@ import Projects from '../../components/Projects'
 import Services from '../../components/Services'
 
 import { Element } from 'react-scroll'
+import Contact from '../../components/Contact'
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
         <Element name="Serviços" className="element">
           <Services />
         </Element>
+
+        <Contact />
 
         <Element name="Contato" className="element">
           <Possibility />
