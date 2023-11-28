@@ -22,7 +22,7 @@ export default function Projects() {
       <div className="flex md:flex-row flex-col gap-[50px] mt-[100px]">
 
         <div
-          className="grid md:grid-cols-3 grid-cols-1 gap-[15rem] md:gap-6"
+          className="grid md:grid-cols-3 grid-cols-1 gap-[2rem] md:gap-6"
         
         >
           {prismicProjects?.map((item, index) => {
