@@ -32,7 +32,7 @@ export default function Home() {
           <Services />
         </Element>
 
-        <Contact />
+        {/* <Contact /> */}
 
         <Element name="Contato" className="element">
           <Possibility />
