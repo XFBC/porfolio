@@ -36,7 +36,11 @@ export default function ProjectCard({
         <h2 className="font-bold text-lg capitalize">{title}</h2>
         <p className="min-h-[140px]">{description}</p>
 
-        <a target="_blank" href={link} className='inline-block bg-gradientText rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 mb-2'>
+        <a
+          target="_blank"
+          href={link}
+          className="inline-block bg-gradientText rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2 mb-2"
+        >
           Ver projeto
         </a>
       </div>
