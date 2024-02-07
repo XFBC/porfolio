@@ -11,6 +11,7 @@ import Services from '../../components/Services'
 
 import { Element } from 'react-scroll'
 import Contact from '../../components/Contact'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         </Element>
       </div>
       <Footer />
+      <Link to="/Links"> test</Link>
     </div>
   )
 }
